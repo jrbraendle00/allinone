@@ -1,0 +1,30 @@
+.grid
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 780.8px;
+  height: 780.8px;
+  background-color: black;
+  padding: 50px;
+  margin-left: 250px;
+  margin-right: 200px;
+}
+
+.grid div
+{
+  width: 256px;
+  height: 256px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.playerX
+{
+  background-image: url('../pictures/cross.jpg')
+}
+
+.playerO
+{
+  background-image: url('../pictures/circle.png')
+}
