@@ -42,7 +42,7 @@ app.get('/singleplayer', function (req, res) {
 
 //hangman
 app.get('/hangman', function (req, res) {
-    res.render('pages/hangman/hangmanUI');
+    res.render('pages/hangman/UI');
 });
 
 //simon
