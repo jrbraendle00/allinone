@@ -6,22 +6,22 @@
     <link rel="stylesheet" type="text/css" href="../../../public/css/snake.css">
 </head>
 <body>
-    <div class="Stay">
-        <h2>All In One</h2>
-        <div class="NavBar">
-            <li class="Nav"><a href="../index.ejs" class="NavLink">Home</a></li>
-            <li class="Nav"><a href="../leader.ejs" class="NavLink">Leader Board</a></li>
-            <li class="Nav DropDown Active">
-                <a href="../allgames.ejs" class="NavLink DropDown">Games</a>
-                <div class="DropList">
-                    <a href="../single.ejs">Single Player</a>
-                    <a href="../multi.ejs">Multi-Player</a>
-                    <a href="../allgames.ejs">All</a>
-                </div>
-            </li>
-            <li class="Nav" id="about"><a href="../about.ejs" class="NavLink">About Us</a></li>
-        </div>
-    </div>
+	<div class="Stay">
+		<h2>All In One</h2>
+		<div class="NavBar">
+			<li class="Nav Active"><a href="/" class="NavLink">Home</a></li>
+			<li class="Nav"><a href="leader" class="NavLink">Leader Board</a></li>
+			<li class="Nav DropDown">
+				<a href="allgames" class="NavLink DropDown">Games</a>
+				<div class="DropList">
+					<a href="singleplayer">Single Player</a>
+					<a href="multiplayer">Multi-Player</a>
+					<a href="allgames">All</a>
+				</div>
+			</li>
+			<li class="Nav" id="about"><a href="about" class="NavLink">About Us</a></li>
+		</div>
+	</div>
     <div class="GameScreen">
         <canvas id="snake" width="608" height="608"></canvas>
         <script src="../../../public/js/snake.js"></script>

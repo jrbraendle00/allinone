@@ -13,5 +13,13 @@
     "express": "^4.17.1"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrbraendle00/allinone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jrbraendle00/allinone/issues"
+  },
+  "homepage": "https://github.com/jrbraendle00/allinone#readme",
   "description": ""
 }

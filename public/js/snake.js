@@ -12,10 +12,10 @@ const box = 32;
 // load images
 
 const ground = new Image();
-ground.src = "img/ground.png";
+ground.src = "../pictures/img/ground.png";
 
 const foodImg = new Image();
-foodImg.src = "img/food.png";
+foodImg.src = "../pictures/img/food.png";
 
 // load audio files
 
@@ -158,7 +158,7 @@ let game = setInterval(draw,100);
 
 function css() {
     var link = document.createElement("link");
-    link.href = "conditional.css";
+    link.href = "../css/conditional.css";
     link.rel = "stylesheet";
     link.type = "text/css";
     link.setAttribute("id", "cond");
