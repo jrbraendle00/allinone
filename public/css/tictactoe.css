@@ -21,10 +21,10 @@
 
 .playerX
 {
-  background-image: url('../pictures/cross.jpg')
+  background-image: url('cross.jpg')
 }
 
 .playerO
 {
-  background-image: url('../pictures/circle.png')
+  background-image: url('circle.png')
 }
