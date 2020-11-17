@@ -43,7 +43,7 @@ app.get('/singleplayer', function (req, res) {
 
 //hangman
 app.get('/hangman', function (req, res) {
-    res.render('pages/hangman/UI');
+    res.render('pages/hangman/hangman');
 });
 
 //simon
@@ -64,4 +64,9 @@ app.get('/tetris', function (req, res) {
 //tictactoe
 app.get('/tictactoe', function (req, res) {
     res.render('pages/tictactoe/tictactoe');
+});
+
+//connect-4
+app.get('/connect4', function (req, res) {
+    res.render('pages/connect4/connectFour');
 });

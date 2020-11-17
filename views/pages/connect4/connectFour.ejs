@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>All In One</title>
-	<link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
+    <title>All In One</title>
+    <link rel="stylesheet" href="../../../public/css/connectFour.css">
+    <link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
 </head>
 <body>
-	<div class="Stay">
+    <div class="Stay">
 		<h2>All In One</h2>
 		<div class="NavBar">
 			<li class="Nav Active"><a href="/" class="NavLink">Home</a></li>
@@ -20,10 +21,12 @@
 			</li>
 			<li class="Nav" id="about"><a href="about" class="NavLink">About Us</a></li>
 		</div>
-	</div>
-	<div class="GameScreen">
-		<div id=display></div>
-    	<script src="../../../public/js/hangman.js"></script>
-	</div>
+    </div>
+    <h>CONNECT FOUR!</h>
+    <div id="display"></div>
+    <script src="../../../public/js/connectFour.js"></script>
+    <script>
+        connectFour();
+    </script>
 </body>
 </html>

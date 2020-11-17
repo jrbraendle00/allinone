@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(78, 171, 222);
+    color: rgb(44, 58, 119);
+    /*text-align: center;
+    font-size: 60px;*/
+}
+
+h1 {
+	font-family: sans-serif;
+	color: rgb(13, 31, 41)
+
+}
+
+Button{
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(129, 222, 214);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+Button:hover{
+	background-color: rgb(114, 194, 207);
+}
+
+.hidden{
+    background-color: rgb(78, 171, 222);
+    cursor: auto;
+}
+.hidden:hover{
+    background-color: rgb(78, 171, 222);
+}
+
+.reset {
+    padding: 40px;
+    width: 210px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+	background-color: rgb(129, 222, 214);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 10px rgb(1,1,1);
+    margin: 20px;
+}
+.reset:hover{
+	background-color: rgb(114, 194, 207);
+}
+.reset:active {
+	background-color: rgb(114, 194, 207);
+	box-shadow: 0 8px rgb(105,105,105);
+	transform: translateY(4px);
+}
+
+canvas{
+    border-radius: 25px;
+}

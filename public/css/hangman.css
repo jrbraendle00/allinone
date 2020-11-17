@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(78, 171, 222);
+    color: rgb(44, 58, 119);/*
+    text-align: center;
+    font-size: 30px;
+    */
+}
+
+h1 {
+	font-family: sans-serif;
+	color: rgb(13, 31, 41)
+
+}
+
+.dButton {
+    padding: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+	background-color: rgb(129, 222, 214);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 10px rgb(1,1,1);
+    margin: 20px;
+}
+.dButton:hover{
+	background-color: rgb(114, 194, 207);
+}
+.dButton:active {
+	background-color: rgb(114, 194, 207);
+	box-shadow: 0 8px rgb(105,105,105);
+	transform: translateY(4px);
+}
+
+.gButton{
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(129, 222, 214);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+.gButton:hover{
+	background-color: rgb(114, 194, 207);
+}
+
+#guy{
+    border-radius: 25px;
+}

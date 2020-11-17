@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>All In One</title>
-	<link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+<head>	
+    <title>All In One</title>
+    <link rel="stylesheet" href="../../../public/css/hangman.css">
+	<link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
 </head>
-<body>		
-	<div class="Stay">
+<body>
+    <div class="Stay">
 		<h2>All In One</h2>
 		<div class="NavBar">
 			<li class="Nav Active"><a href="/" class="NavLink">Home</a></li>
@@ -20,13 +21,12 @@
 			</li>
 			<li class="Nav" id="about"><a href="about" class="NavLink">About Us</a></li>
 		</div>
-	</div>
-	<a href="hangman" class="Button Game">Hangman</a>
-	<a href="tictactoe" class="Button Game">TicTacToe</a>
-	<a href="simon" class="Button Game">Simon</a>
-	<a href="snake" class="Button Game">Snake</a>
-	<a href="tetris" class="Button Game">Tetris</a>
-	<a href="connect4" class="Button Game">Connect-4</a>
-
+    </div>
+    <h1>HANGMAN!</h1>
+    <div id=display></div>
+    <script src="../../../public/js/hangman.js"></script>
+    <script>
+        hangman();
+    </script>
 </body>
 </html>
