@@ -5,11 +5,16 @@ body {
     font-size: 60px;*/
 }
 
-h1 {
+h {
+    width: 100%;
+    text-align: center;
 	font-family: sans-serif;
-	color: rgb(13, 31, 41)
-
+	color: rgb(13, 31, 41);
+    font-size: 30px;
+    left: 0; right: 0;
+    position: absolute;
 }
+
 
 Button{
     text-align: center;
@@ -58,4 +63,11 @@ Button:hover{
 
 canvas{
     border-radius: 25px;
+}
+
+#display{
+    text-align: center;
+	font-family: sans-serif;
+	color: rgb(13, 31, 41);
+    font-size: 30px;
 }

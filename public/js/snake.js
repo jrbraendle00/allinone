@@ -12,10 +12,10 @@ const box = 32;
 // load images
 
 const ground = new Image();
-ground.src = "../pictures/img/ground.png";
+ground.src = "../../public/pictures/img/ground.png";
 
 const foodImg = new Image();
-foodImg.src = "../pictures/img/food.png";
+foodImg.src = "../../public/pictures/img/food.png";
 
 // load audio files
 
@@ -62,15 +62,19 @@ document.addEventListener("keydown",direction);
 function direction(event){
     let key = event.keyCode;
     if( key == 37 && d != "RIGHT"){
+        css();
         left.play();
         d = "LEFT";
     }else if(key == 38 && d != "DOWN"){
+        css();
         d = "UP";
         up.play();
     }else if(key == 39 && d != "LEFT"){
+        css();
         d = "RIGHT";
         right.play();
     }else if(key == 40 && d != "UP"){
+        css();
         d = "DOWN";
         down.play();
     }
@@ -138,6 +142,7 @@ function draw(){
     if(snakeX < box || snakeX > 17 * box || snakeY < 3*box || snakeY > 17*box || collision(newHead,snake)){
         clearInterval(game);
         dead.play();
+        location.reload();
     }
     
     snake.unshift(newHead);
@@ -150,6 +155,19 @@ function draw(){
 // call draw function every 100 ms
 
 let game = setInterval(draw,100);
+
+function css() {
+    var link = document.createElement("link");
+    link.href = "../../public/css/conditional.css";
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.setAttribute("id", "cond");
+
+    var head = document.getElementById("header");
+
+    head.appendChild(link);
+}
+
 
 
 

@@ -1,4 +1,13 @@
 
+h {
+    width: 100%;
+    text-align: center;
+	font-family: sans-serif;
+	color: rgb(13, 31, 41);
+    font-size: 30px;
+    left: 0; right: 0;
+    position: absolute;
+}
 .dButton {
     padding: 40px;
     font-size: 40px;
@@ -31,4 +40,12 @@
     border: none;
     border-radius: 5px;
     margin: 5px;
+}
+
+
+#display{
+    text-align: center;
+	font-family: sans-serif;
+	color: rgb(13, 31, 41);
+    font-size: 30px;
 }
