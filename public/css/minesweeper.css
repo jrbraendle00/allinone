@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(78, 171, 222);
+    color: rgb(44, 58, 119);/*
+    text-align: center;
+    font-size: 60px;*/
+}
+
+h {
+    width: 100%;
+    text-align: center;
+	font-family: sans-serif;
+	color: rgb(13, 31, 41);
+    font-size: 30px;
+    left: 0; right: 0;
+    position: absolute;
+}
+
+.buttonRow{
+    height: 40px;
+}
+
+.dButton {
+    padding: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+	background-color: rgb(129, 222, 214);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 10px rgb(1,1,1);
+    margin: 20px;
+}
+.dButton:hover{
+	background-color: rgb(114, 194, 207);
+}
+.dButton:active {
+	background-color: rgb(114, 194, 207);
+	box-shadow: 0 8px rgb(105,105,105);
+	transform: translateY(4px);
+}
+
+.gButton{
+    text-align: center;
+    height: 35px;
+    width: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(129, 222, 214);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+.gButton:hover{
+	background-color: rgb(114, 194, 207);
+}
+
+.revealed{
+    text-align: center;
+    height: 30px;
+    width: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(44, 58, 119);
+    background-color: rgb(78, 171, 222);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.flagged{
+    text-align: center;
+    height: 35px;
+    width: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+canvas{
+    border-radius: 25px;
+}
+
+#display{
+    text-align: center;
+	font-family: sans-serif;
+	color: rgb(13, 31, 41);
+    font-size: 30px;
+}
