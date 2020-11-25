@@ -70,3 +70,8 @@ app.get('/tictactoe', function (req, res) {
 app.get('/connect4', function (req, res) {
     res.render('pages/connect4/connectFour');
 });
+
+//minesweeper
+app.get('/minesweeper', function (req, res) {
+    res.render('pages/minesweeper/minesweeper');
+});
