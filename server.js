@@ -78,7 +78,7 @@ app.get('/minesweeper', function (req, res) {
 
 //ping pong
 app.get('/pingpong', function (req, res) {
-    res.render('pages/ping pong/pong');
+    res.render('pages/ping-pong/pong');
 });
 
 app.get('/checkers', function (req, res) {
