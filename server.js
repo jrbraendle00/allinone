@@ -75,3 +75,12 @@ app.get('/connect4', function (req, res) {
 app.get('/minesweeper', function (req, res) {
     res.render('pages/minesweeper/minesweeper');
 });
+
+//ping pong
+app.get('/pingpong', function (req, res) {
+    res.render('pages/ping pong/pong');
+});
+
+app.get('/checkers', function (req, res) {
+    res.render('pages/checkers/index');
+});
