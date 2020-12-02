@@ -1,9 +1,16 @@
 .GameScreen {
   padding-bottom: 4%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
   display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  justify-content: center;
 }
 
 
@@ -13,6 +20,12 @@
   display: flex;
   flex-wrap: wrap;
   background-color: black;
+
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .grid div {
@@ -31,10 +44,18 @@
   height: 80px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
 }
 
 .mini-grid div {
   height: 20px;
   width: 20px;
+}
+
+.Header{
+  font-size: 15px;
+  font-family: sans-serif;
+  display: flex;
+  margin: 0 auto;
+  padding: 5px;
+  justify-content: center;
 }

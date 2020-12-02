@@ -3,6 +3,12 @@
     <title>All In One</title>
     <link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
     <style>
+        .pong{
+            margin: 0 auto;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
         canvas {
             border: solid 1px #fff;
             border-left: none;
@@ -10,8 +16,10 @@
             image-rendering: pixelated;
             width: 50%;
         }
-        body {
-            align-items: center;
+        .header {
+            text-align: center;
+            font-size: 35px;
+            font-family: sans-serif;
         }
     </style>
 </head>
@@ -32,7 +40,12 @@
 			<li class="Nav" id="about"><a href="about" class="NavLink">About Us</a></li>
 		</div>
     </div>
-    <div>
+    <div class="header">
+        <h>PING-PONG<br></h>
+    </div>
+    <div class="pong">
+        
+        
         <canvas id="pong" width="600" height="400" />
         <script src="../../../public/js/pong.js"></script>
     </div>
