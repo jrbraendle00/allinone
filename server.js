@@ -1,10 +1,26 @@
 var express = require('express');
+const mongodbClient = require('mongodb').MongoClient;
 
 const ejs = require('ejs');
 
 var app = express();
 
 const port = process.env.PORT || 3000
+
+const uri = "mongodb+srv://allinoneAdmin:WMXngSC4Hz8b2M6w@allinonecluster.xi2cf.mongodb.net/scores?retryWrites=true&w=majority"
+mongodbClient.connect(uri, function(err,client) {
+    if(err) {
+        console.log('Error - Unable to connect to the database');
+    }
+
+    console.log('Connected to All-in-One database');
+    const collection = client.db("scores").collection("LeaderboardScores"); 
+
+    
+
+    client.close();
+})
+
 
 app.use('/public', express.static('public'));
 
